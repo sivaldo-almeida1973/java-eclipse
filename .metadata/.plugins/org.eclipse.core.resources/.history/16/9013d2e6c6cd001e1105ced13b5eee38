@@ -23,7 +23,7 @@ public class PessoaFisica {
 		cc2.exibirSaldo();
 		
 		System.out.println("----------------------------------------");
-		System.out.println("Transferencia: ");
+		System.out.println("Trnsferencia: ");
 		System.out.println("Cliente: " + cc1.cliente);
 		System.out.println("Favorecido: " + cc2.cliente);
 		cc1.tranferir(cc2, 7000);
@@ -32,13 +32,6 @@ public class PessoaFisica {
 		cc1.exibirSaldo();
 		System.out.println("Cliente: " + cc2.cliente);
 		cc2.exibirSaldo();
-		
-		System.out.println("----------------------------------------");
-		System.out.println("Relatorio Gerencial: ");
-		Conta gerente = new Conta();
-		double relatorio = gerente.soma(cc1.saldo, cc2.saldo);
-		System.out.println("Saldo total nas contas: R$ " + relatorio);
-		
 		
 		
 		

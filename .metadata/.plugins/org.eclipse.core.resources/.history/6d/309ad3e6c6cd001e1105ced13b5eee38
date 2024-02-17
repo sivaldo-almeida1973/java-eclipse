@@ -34,14 +34,6 @@ public class Conta {
 		destino.depositar(valor);
 		System.out.println("Transferencia: R$ " + valor);
 	}
-	
-	//metodo com retorno não usa (void)
-	double soma(double cc1, double cc2) {
-		double total = cc1 + cc2;
-		return total;
-		
-	}
-	
 	    
 		
 		
