@@ -1,0 +1,17 @@
+package teste;
+
+public class javaTeste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Ola mundo");
+		
+		for(int tabuada = 0;tabuada <= 10;tabuada++) {
+			for(int valor = 0; valor <= 10;valor++) {
+				System.out.println(tabuada " X" + valor " = "+ (tabuada * valor));
+			}
+		}
+
+	}
+
+}

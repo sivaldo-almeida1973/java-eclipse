@@ -1,0 +1,42 @@
+package empresa;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int idade = 20;
+		idade = idade + 2;
+		double peso = 89.90;
+		
+		String nome = "sivaldo";
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Digite sua idade,peso e nome: ");
+		
+		
+		
+		
+		
+		//leitura de dados (scanner)
+		
+		
+		
+		idade = teclado.nextInt();
+		peso = teclado.nextFloat();
+		nome = teclado.next();
+		
+		System.out.println("Nome: "+ nome);
+		System.out.printf("Idade: %d\n"+ idade);
+		System.out.printf("Peso: %.2f\n"+ peso);
+		
+		
+		
+
+
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package cursoJava;
+
+public class Fundamentos {
+
+	public static void main(String[] args) {
+		//String nome = "sivaldo";
+		String nome;
+		nome = "sivaldo";
+		
+		System.out.println("Nome:",nome);
+
+	}
+
+}

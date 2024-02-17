@@ -1,0 +1,18 @@
+package contas;
+
+public class Conta {
+	//atributos
+	String cliente;
+	double saldo;
+	
+	//construtor(tem que ter mesmo nome da classe)
+	public Conta() {
+		System.out.println("Agencia 0261");		
+	}
+	
+	//metodos(funcao)
+	
+	void exibirSaldo() {
+		System.out.println("Saldo: R$ " + saldo);
+	}
+}

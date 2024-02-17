@@ -1,0 +1,11 @@
+package construtor;
+
+public class Aviao extends Carro{
+	double envergadura;
+	
+	//metodo 
+	void aterrizar() {
+		System.out.println("---------------_______________");
+	}
+
+}

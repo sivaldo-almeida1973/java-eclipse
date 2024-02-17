@@ -1,0 +1,30 @@
+package cursoJava;
+
+public class EstruturasControle {
+
+	public static void main(String[] args) {
+		// 
+		System.out.println("Estruturas de controle condicional");
+		System.out.println("");
+		System.out.println("Exemplo 1 - Uso do IF");
+		
+		int idade = 30;
+		char sexo = 'F';
+		
+		if(sexo == 'M') {
+			System.out.println("Alistamento militar obrigatório");
+		}
+		
+		System.out.println("----------------------------");
+		System.out.println("Exemplo 2 - Uso do IF - Else");
+		if (idade > 18) {
+			System.out.println("Maior da idade ");
+		} else {
+			System.out.println("Menor idade");
+		}
+	
+	
+		
+	}
+
+}
