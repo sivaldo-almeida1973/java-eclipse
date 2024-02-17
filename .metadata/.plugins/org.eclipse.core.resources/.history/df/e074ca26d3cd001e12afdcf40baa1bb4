@@ -36,7 +36,7 @@ public class PessoaFisica {
 		System.out.println("----------------------------------------");
 		System.out.println("Relatorio Gerencial: ");
 		Conta gerente = new Conta();
-		double relatorio = gerente.soma(cc1.getSaldo(), cc2.getSaldo());
+		double relatorio = gerente.soma(cc1.setSaldo(0), cc2.setSaldo(0));
 		System.out.println("Saldo total nas contas: R$ " + relatorio);
 		
 		

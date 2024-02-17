@@ -2,24 +2,8 @@ package contas;
 
 public class Conta {
 	//atributos
-	private String cliente;
-	//criar metodos publico para acessar a var cliente(encapsulamento)
-	public String getCliente() {
-		return cliente;
-	}
-	public void setCliente(String cliente) {
-		this.cliente = cliente;
-	}
-	
-	private double saldo;
-	//criar metodos publico para acessar a var cliente(encapsulamento)
-	public double getSaldo() {
-		return saldo;
-	}
-	
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
+	protected String cliente;
+	protected double saldo;
 	
 	//construtor(tem que ter mesmo nome da classe)
 	public Conta() {
