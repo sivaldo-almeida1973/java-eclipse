@@ -1,0 +1,41 @@
+package exercicios;
+
+
+import java.util.Scanner;
+
+public class PedraPapelTesoura {
+
+	public static void main(String[] args) {
+		// variaveis
+		int jogador, computador;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("_______JoKenPô_______");
+		System.out.println("");
+		System.out.println("1. Pedra");
+		System.out.println("2. Pedra");
+		System.out.println("3. Pedra");
+		System.out.println("Digite a opção desejada:");
+		//logica do jogador
+		jogador = teclado.nextInt();
+		switch(jogador) {
+		case 1:
+			System.out.println("Jogador escolheu Pedra");
+			break;
+		case 2:
+			System.out.println("Jogador escolheu Papel");
+			break;
+		case 3:
+			System.out.println("Jogador escolheu Tesoura.");
+			break;
+		default:
+			System.out.println("Opção inválida");
+			break;
+		}
+		
+		
+		teclado.close();
+				
+
+	}
+
+}
