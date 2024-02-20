@@ -16,6 +16,8 @@ public class jogoLeonidas {
 		
 		
 		while(palpite != valorCorreto) {
+			//operador ternario(substitui o if/else
+ //msg= palpite>valorCorreto?"Um pouco menos...":"Um pouco mais...";
 			if(palpite> valorCorreto) {
 				System.out.println("Um pouco menos....");
 			}else {
