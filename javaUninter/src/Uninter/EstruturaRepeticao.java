@@ -64,7 +64,17 @@ public class EstruturaRepeticao {
 			System.out.println("Esta no inervalo");
 		}
 		
+		//verdadeiro(true) , falso(false) minusculo
+		
+		//funções (main) ja é uma funcao
+		//void não retorna nada
+		
+		
+		
+		
+		
 
 	}
+	
 
 }
