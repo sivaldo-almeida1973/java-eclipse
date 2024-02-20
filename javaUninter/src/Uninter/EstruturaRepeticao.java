@@ -32,6 +32,38 @@ public class EstruturaRepeticao {
 		for(int i = 0; i < 10; i++) {
 			System.out.println("Valor: " + i);
 		}
+		
+		
+		//array-----------------
+		int[] notas = new int[3];
+		
+		//preecher o array com valores
+		notas[0]= 4;
+		notas[1]= 6;
+		notas[2]= 8;
+		
+		//for each percorrer
+		for(int n : notas) {
+			System.out.println("Notas:"+n);
+		}
+		
+		System.out.println("-----------------");
+		//pode ser assim tambem
+        int[] notas2 = {43,53,63,73};
+		
+		//preecher o array com valores
+		
+		//for each percorrer
+		for(int n2 : notas2) {
+			System.out.println("Notas:"+n2);
+		}
+		
+		// && -E, ||- ou ,!--diferente
+		
+		if(idade > 10 || idade < 20) {
+			System.out.println("Esta no inervalo");
+		}
+		
 
 	}
 
