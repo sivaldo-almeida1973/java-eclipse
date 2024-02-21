@@ -1,17 +1,21 @@
 package OObjetos;
 
 public class Aluno {
-	//atributod
+	//atributos de aluno
 	int matricula;
 	String nome;
 	String cpf;
 	
-	Aluno() {};
+	//chamada obj aluno sem pararmetros
+	Aluno() {
+		System.out.println("Aluno criado sem parametros");
+	};
 	
+	//construtor
 	Aluno(int pMatricula, String pNome, String pCpf) {
-		matricula = pMatricula;
-		nome = pNome;
-		cpf = pCpf;
+		this.matricula = pMatricula;
+		this.nome = pNome;
+		this.cpf = pCpf;
 	}
 	
 	//criar um metodo(imprimir)
