@@ -15,7 +15,7 @@ public class Curso {
     //mostra as informacoes(metodo ou funcao)
 	void info() {
 		System.out.println("Nome Curso: " + nome);
-		System.out.println("Menaslidade Curso: " + mensalidade);
+		System.out.println("Mensalidade Curso: " + mensalidade);
 	}
 
 }
