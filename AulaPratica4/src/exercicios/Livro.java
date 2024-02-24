@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Livro {
+public abstract class Livro {
 	protected String titulo;
 	protected int edicao;
 	protected String genero;
