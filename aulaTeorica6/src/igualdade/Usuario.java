@@ -14,7 +14,14 @@ public class Usuario {
 		this.nome = nome;
 		this.cpf = cpf;
 	}
+	
+    //metodo toString
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nome=" + nome + ", cpf=" + cpf + "]";
+	}
 
+    //metodo equals
 	@Override
 	public int hashCode() {
 		return Objects.hash(cpf, id, nome);

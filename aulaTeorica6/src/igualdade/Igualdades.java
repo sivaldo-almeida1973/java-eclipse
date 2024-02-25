@@ -14,6 +14,11 @@ public class Igualdades {
 		//meto equals(faz comparacao)
 		System.out.println(u1.equals(u2));
 		System.out.println(u1.equals(u3));
+		
+		//metodo toSring
+		
+		System.out.println(u1);
+		
 	
 		
 
