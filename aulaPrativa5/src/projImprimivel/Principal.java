@@ -1,5 +1,7 @@
 package projImprimivel;
 
+import java.util.ArrayList;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -8,8 +10,13 @@ public class Principal {
 		Carro c = new Carro("Palio","Cinza",4);
 		Quadrado q = new Quadrado(10);
 		
-		Imprimivel i = f;
+		ArrayList<Imprimivel> lista = new ArrayList();
 		
+		lista.add(q);
+		lista.add(c);
+		lista.add(f);
+		
+		Imprimivel i = f;	
 		i.imprimir();
 		i=c;
 		i.imprimir();
