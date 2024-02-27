@@ -13,6 +13,7 @@ public class Principal {
 		
 		try {
 			int conta = 10/0;
+			
 			arr = instanciaArray(tam);
 			for(int i= 0 ;i< tam; i++) {
 				System.out.println(arr[i]);
