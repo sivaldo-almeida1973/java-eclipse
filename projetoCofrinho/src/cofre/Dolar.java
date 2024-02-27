@@ -15,10 +15,23 @@ public class Dolar extends Moeda{
 
 	@Override
 	public double converter() {
-		
-		System.out.println("Covertido para Real:");
 		return this.valor*4.91;
 				
+	}
+	
+	//complemento de remover
+	@Override
+	public boolean equals(Object objeto) {
+		if (this.getClass() != objeto.getClass()) {
+			return false;
+		}
+		//cast
+		Dolar objetodeDolar = (Dolar) objeto;
+		
+		if (this.valor != objetodeDolar.valor) {
+			return false;
+		}
+		return true;//igual
 	}
 
 }

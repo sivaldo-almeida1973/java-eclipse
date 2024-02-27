@@ -23,6 +23,21 @@ public class Real extends Moeda{
 				
 	}
 	
+	//complemento de remover
+	@Override
+	public boolean equals(Object objeto) {
+		if (this.getClass() != objeto.getClass()) {
+			return false;
+		}
+		//cast
+		Real objetodeReal = (Real) objeto;
+		
+		if (this.valor != objetodeReal.valor) {
+			return false;
+		}
+		return true;//igual
+	}
+	
 	
 	
 }

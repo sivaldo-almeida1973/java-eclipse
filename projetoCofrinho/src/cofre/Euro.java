@@ -16,11 +16,23 @@ public class Euro extends Moeda {
 
 	@Override
 	public double converter() {
-		
-		System.out.println("Covertido para Real:");
 		return this.valor*5.40;
 				
 	}
 	
+	//complemento de remover
+	@Override
+	public boolean equals(Object objeto) {
+		if (this.getClass() != objeto.getClass()) {
+			return false;
+		}
+		//cast
+		Euro objetodeEuro = (Euro) objeto;
+		
+		if (this.valor != objetodeEuro.valor) {
+			return false;
+		}
+		return true;//igual
+	}
 
 }
