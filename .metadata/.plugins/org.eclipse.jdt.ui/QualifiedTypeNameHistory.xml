@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -16,4 +15,12 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="empresa.Estacao"/>
+    <fullyQualifiedTypeName name="empresa.NoteBook"/>
+    <fullyQualifiedTypeName name="empresa.Desktop"/>
+    <fullyQualifiedTypeName name="empresa.Computador"/>
+    <fullyQualifiedTypeName name="empresa.Funcionario"/>
+    <fullyQualifiedTypeName name="empresa.Carro"/>
+    <fullyQualifiedTypeName name="empresa.Quadrado"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 </qualifiedTypeNameHistroy>
