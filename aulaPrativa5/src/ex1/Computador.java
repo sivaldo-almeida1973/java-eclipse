@@ -12,7 +12,7 @@ public abstract class Computador {
 	}
 
 
-	//metodo abstrato
+	//metodo abstrato(obriga as classes filhas terem o mesmo)
 	abstract double calculaValor();
 		
 	
